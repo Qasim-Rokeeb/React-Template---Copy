@@ -1,8 +1,4 @@
-Certainly! Here's the `README.md` for **Day 8 – Stopwatch App**, provided as requested:
 
----
-
-````markdown
 # Day 8 - Stopwatch App ⏱️
 
 This is Day 8 of my 30-Day React Relearning Journey. The focus of this project is to:
