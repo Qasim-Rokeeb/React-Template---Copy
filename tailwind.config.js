@@ -1,21 +1,22 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
+      fontFamily: { inter: ["Inter", "sans-serif"] },
       colors: {
-        brandDark: "#0b0b0d",
-        brandBlue: "#125795",
-      },
-      fontFamily :{
-        merriweather: ["Merriweather", 'serif'],
-        montserrat: ["Montserrat", 'sans-serif'],
+        accent: {
+          start: "rgb(16 185 129)",   // emerald-500
+          stop: "rgb(245 158 11)",    // amber-500
+          reset: "rgb(239 68 68)",    // rose-500
+          white: "rgb(255 255 255)",
+          white80: "rgba(255,255,255,0.8)",
+          gray100: "rgb(243 244 246)",
+          gray800: "rgb(31 41 55)",
+          gray900: "rgb(17 24 39)",
+        },
       },
     },
   },
   plugins: [],
-}
-
+};
